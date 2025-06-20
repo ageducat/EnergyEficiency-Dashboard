@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World", "Project": "EnergyWise"}
+    return {"Hello": "World", "Project": "EnergyEficiency"}
 
 @app.get("/api/health")
 def health_check():
